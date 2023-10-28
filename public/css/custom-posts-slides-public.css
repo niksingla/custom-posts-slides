@@ -1,0 +1,32 @@
+.carousel-cell {
+	width: 100%;
+	height: 500px;
+	padding: 50px;
+}
+.post-container{
+	display:flex;
+}
+.post-container .col{
+	width:50%;
+}
+.details-wrapper{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-right:20px;
+}
+.inner-carousel-btns{
+	position:absolute;
+	right:20px;
+}
+.bottom-carousel{
+	position:relative;
+	display:flex;
+	flex-direction:row;
+	height: 150px;
+	padding: 20px;
+	border: 2px solid;
+}
+.small-ft-image{
+	width:100px;
+}
